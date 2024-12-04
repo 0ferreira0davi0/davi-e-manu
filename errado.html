@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizTeck Edu Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff4b1f, #ff9068);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+        }
+        .container h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .container p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ff4b1f;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background: #ff9068;
+        }
+        .btn-back {
+            background: #888;
+        }
+        .btn-back:hover {
+            background: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resposta Errada!</h1>
+        <p>Não foi dessa vez, mas não desista! Tente novamente e avance no quiz.</p>
+        <a href="questao.html" class="btn">Tentar Novamente</a>
+        <a href="index.html" class="btn btn-back">Voltar ao Início</a>
+    </div>
+</body>
+</html>
